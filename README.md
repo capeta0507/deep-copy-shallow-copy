@@ -25,8 +25,8 @@ var B = A;
 var C = B;
 A[0]= 99;
 console.log(A);   // [99,2,3,4]
-console.log(B);   // [1,2,3,4]
-console.log(C);   // [1,2,3,4]
+console.log(B);   // [99,2,3,4]
+console.log(C);   // [99,2,3,4]
 ```
 三、將陣列改成非同步
 1. 使用for loop
